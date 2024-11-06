@@ -2,15 +2,18 @@
   "name": "foundry-ontology-sync",
   "version": "0.0.1",
   "description": "",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "etherandrius",
   "license": "MIT",
   "dependencies": {
-        "@synologyontologyfilesync/sdk": "^0.2.0",
-		"@osdk/client": "^2.0.9",
-		"@osdk/oauth": "^1.0.0"
+    "@osdk/client": "^2.0.9",
+    "@osdk/oauth": "^1.0.0",
+    "@synologyontologyfilesync/sdk": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0"
   }
 }
